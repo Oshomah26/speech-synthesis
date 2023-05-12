@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
 
+ 
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  background: linear-gradient(rgba(255, 132, 0, 0.909),rgb(255, 40, 2));
-  background-size: cover;
+  background-image: linear-gradient(rgba(255, 132, 0, 0.909),rgb(255, 40, 2));
+  background-size: contain;
   background-repeat: no-repeat;
-  
 }
+
 
 .container {
   width: 100%;
@@ -18,7 +19,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding-bottom: 500px;
 }
+
+
+
 
 #text-input,
 #voice-select {
